@@ -10,7 +10,7 @@ rebuild:
 	make clean
 	make all
 
-test:
+test: s21_grep
 	bash test.sh
 
 clean:
